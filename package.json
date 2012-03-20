@@ -1,21 +1,21 @@
 {
+  "author": "mcandre <andrew.pennebaker@gmail.com> (http://www.yellosoft.us/)",
   "name": "chop",
   "description": "A chop()/chomp() library for Node.js",
-  "version": "0.0.1",
+  "version": "0.0.0",
+  "homepage": "https://github.com/mcandre/node-chop",
   "repository": {
     "type": "git",
     "url": "git://github.com/mcandre/node-chop.git"
   },
-  "author": "Andrew Pennebaker <andrew.pennebaker@gmail.com> (http://www.yellosoft.us/)",
-  "main": "chop",
-  "directories": {
-    "lib": "."
-  },
+  "main": "index.js",
   "scripts": {
+    "test": "./node_modules/.bin/mocha test.js"
   },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
   "engines": {
     "node": "*"
-  },
-  "dependencies": {
   }
 }
