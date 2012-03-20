@@ -1,0 +1,21 @@
+{
+  "name": "chop",
+  "description": "A chop()/chomp() library for Node.js",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mcandre/node-chop.git"
+  },
+  "author": "Andrew Pennebaker <andrew.pennebaker@gmail.com> (http://www.yellosoft.us/)",
+  "main": "chop",
+  "directories": {
+    "lib": "."
+  },
+  "scripts": {
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+  }
+}
