@@ -1,10 +1,11 @@
-function chop(s) {
+var chop = function(s) {
 	return s.slice(0, s.length - 1);
 }
 
+module.exports = exports = chop;
 exports.chop = chop;
 
-function chomp(s) {
+var chomp = function(s) {
 	if (s.length < 1) {
 		return s;
 	}
